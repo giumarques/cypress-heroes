@@ -29,9 +29,13 @@
   "homepage": "https://github.com/elylucas/cypress-heroes#readme",
   "devDependencies": {
     "concurrently": "^7.6.0",
+    "cypress-file-upload": "^5.0.8",
     "rimraf": "^4.1.0"
   },
   "prisma": {
     "schema": "server/prisma/schema.prisma"
+  },
+  "dependencies": {
+    "chance": "^1.1.13"
   }
 }
